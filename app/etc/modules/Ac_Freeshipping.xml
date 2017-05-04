@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Ac_Freeshipping>
+            <active>true</active>
+            <codePool>local</codePool>
+        </Ac_Freeshipping>
+    </modules>
+</config>

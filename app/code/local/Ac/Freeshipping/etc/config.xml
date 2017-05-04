@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Ac_Freeshipping.
+ *
+ * @author Andrea Canton <andrea.canton@gmail.com>
+ */
+-->
+<config>
+    <modules>
+        <Ac_Freeshipping>
+            <version>0.1.0</version>
+        </Ac_Freeshipping>
+    </modules>
+    <global>
+        <helpers>
+            <ac_freeshipping>
+                <class>Ac_Freeshipping_Helper</class>
+            </ac_freeshipping>
+        </helpers>
+        <models>
+            <ac_freeshipping>
+                <class>Ac_Freeshipping_Model</class>
+            </ac_freeshipping>
+            <shipping>
+                <rewrite>
+                    <carrier_flatrate>Ac_Freeshipping_Model_Carrier_Flatrate</carrier_flatrate>
+                </rewrite>
+            </shipping>
+        </models>
+    </global>
+    <default>
+        <carriers>
+            <flatrate>
+                <ignore_freeshipping>0</ignore_freeshipping>
+            </flatrate>
+        </carriers>
+    </default>
+</config>

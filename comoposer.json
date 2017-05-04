@@ -1,0 +1,6 @@
+{
+  "name": "ac/freeshipping",
+  "description": "Module for prevent Freeshipping rule to apply to certain methods",
+  "license": "MIT",
+  "type": "magento-module"
+}
